@@ -8,7 +8,6 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:8080
-        client-ip: 10.26.190.49
       datasource:
         - nacos:
             server-addr: localhost:8848
