@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-cloud-sentinel-sample
+  cloud:
+    nacos:
+      discovery:
+        enabled: false
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+
+
+
+
+
+
