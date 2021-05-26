@@ -6,9 +6,14 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 流控
+ *
+ * @author yuntai
+ */
 @Slf4j
 @RestController
-public class EchoController {
+public class FlowRuleController {
 
     @SentinelResource(value = "echo", blockHandler = "echoBlockHandler")
     @GetMapping("/echo")

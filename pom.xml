@@ -68,6 +68,13 @@
             <artifactId>sentinel-datasource-nacos</artifactId>
             <version>1.8.0</version>
         </dependency>
+
+        <!-- 热点流控 -->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-parameter-flow-control</artifactId>
+            <version>1.8.0</version>
+        </dependency>
     </dependencies>
 
     <build>
